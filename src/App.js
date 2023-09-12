@@ -9,12 +9,9 @@ function App() {
       <div className="container">
         <div className="weather-application mt-5">
 
-          <form className="row m-1">
-            <input type="search" placeholder="Type a city" className="col-6" />
-            <input type="submit" value="Search" className="col-2" />
-          </form>
+         
 
-          <Weather defaultCity="Sydney" />
+          <Weather defaultCity="Hannover" />
 
           <div className="forecast-container" id="forecast"></div>
         </div>
