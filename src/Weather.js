@@ -20,8 +20,8 @@ export default function Weather(props) {
     });
   }
 
-  function handleError (error) {
-console.log(error)
+  function handleError(error) {
+    console.log(error);
   }
   function searchCity() {
     let apiKey = "0479fec9478c6c9031d035f5c5efc126";
@@ -48,8 +48,7 @@ console.log(error)
           />
           <input type="submit" value="Search" className="col-2" />
         </form>
-        <WeatherData data={weather}/>
-       
+        <WeatherData data={weather} />
       </div>
     );
   } else {

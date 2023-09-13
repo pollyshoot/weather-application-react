@@ -28,7 +28,8 @@ export default function FormattedDate(props) {
   return (
     <div id="time">
       {days[props.date.getDay()]}, {months[props.date.getMonth()]} {props.date.getDate()}, {" "}
-      {props.date.getFullYear()} {props.date.getHours()}:{props.date.getMinutes()}
+      {props.date.getFullYear()} 
+      {/* {props.date.getHours()}:{props.date.getMinutes()} */}
     </div>
   );
 }

@@ -18,7 +18,7 @@ function App() {
 
         <footer className="source">
           <a
-            href="https://github.com/pollyshoot/shecodesplus_project"
+            href="https://github.com/pollyshoot/weather-application-react"
             target="_blank"
             rel="noreferrer"
           >
